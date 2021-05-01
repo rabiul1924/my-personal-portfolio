@@ -1,0 +1,687 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*=================================================
+    
+                Bootstrap 4 Media Queries
+
+===============================================*/
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) {
+    /* Home */
+
+    .home .max-width {
+
+        margin-left: 0px
+    }
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Home */
+
+    .max-width {
+
+        padding: 0 50px
+    }
+
+    .home .home-content .text-2 {
+
+        font-size: 70px
+    }
+
+    .home .home-content .text-3 {
+
+        font-size: 35px
+    }
+
+    .home .home-content a {
+
+        font-size: 23px;
+
+        padding: 10px 30px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Nav Bar */
+
+    nav {
+
+        padding: 5px 30px
+    }
+
+    nav ul li.items {
+
+        width: 100%;
+
+        display: none
+    }
+
+    nav ul li.items.show {
+
+        display: block
+    }
+
+    nav ul li.btn {
+
+        display: block
+    }
+
+    nav ul li.items:hover {
+
+        border-radius: 5px;
+
+        -webkit-box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff;
+
+        box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff
+    }
+
+    nav ul li.items:hover:after {
+
+        opacity: 0;
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+
+    /* About - remove diagonal border */
+
+    #about-bg-diagonal {
+
+        border-left: 0;
+
+        border-top: 0;
+
+        width: 100%;
+
+        height: 500px
+    }
+
+    #about-content-box {
+
+        width: 100%;
+
+        height: 500px;
+
+        margin-bottom: 125px
+    }
+    
+    
+#about-content-box-outer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+    /* Skills */
+
+    section .title {
+
+        font-size: 35px
+    }
+
+    .text h4 {
+
+        font-size: 20px
+    }
+
+    .skills .title:after {
+
+        font-size: 20px
+    }
+
+    #skills {
+
+        margin-top: 35px
+    }
+
+    #skills .max {
+
+        padding: 40px 30px
+    }
+
+    .skills .skills-content .left a {
+
+        margin-bottom: 40px
+    }
+
+    .skills .skills-content .column {
+
+        width: 100%
+    }
+
+    /* Stats */
+
+    .stats-item {
+
+        padding: 20px 0
+    }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Home */
+
+    .home .home-content .text-2 {
+
+        font-size: 50px
+    }
+
+    .home .home-content .text-3 {
+
+        font-size: 27px
+    }
+
+    /* Nav Bar */
+
+    nav {
+
+        padding: 5px 30px
+    }
+
+    nav ul li.items {
+
+        width: 100%;
+
+        display: none
+    }
+
+    nav ul li.items.show {
+
+        display: block
+    }
+
+    nav ul li.btn {
+
+        display: block
+    }
+
+    nav ul li.items:hover {
+
+        border-radius: 5px;
+
+        -webkit-box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff;
+
+        box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff
+    }
+
+    nav ul li.items:hover:after {
+
+        opacity: 0;
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+
+    /* Skills */
+
+    section .title {
+
+        font-size: 35px
+    }
+
+    .text h4 {
+
+        font-size: 20px
+    }
+
+    .skills .title:after {
+
+        font-size: 17px
+    }
+
+    #skills .max {
+
+        padding: 20px 15px
+    }
+
+    .skills .skills-content .column {
+
+        width: 100%;
+
+        margin-bottom: 35px
+    }
+
+    .skills .skills-content .left .text {
+
+        font-size: 19px
+    }
+
+    /* About - remove diagonal border */
+
+    #about-bg-diagonal {
+
+        border-left: 0;
+
+        border-top: 0;
+
+        width: 100%;
+
+        height: 500px
+    }
+
+    #about-content-box {
+
+        width: 100%;
+
+        height: 500px;
+
+        margin-bottom: 15px
+    }
+
+    /* Contact */
+
+    #contact {
+
+        padding: 50px
+    }
+
+    .container1 {
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+        flex-direction: column
+    }
+
+    /* Button */
+
+    .btn-general {
+
+        padding: 6px 22px 6px 22px;
+
+        font-size: 14px
+    }
+
+    /* heading */
+
+    h3 {
+
+        font-size: 20px
+    }
+}
+
+/* Extra Small Devices (Landscape phone & Portrait Tablets) */
+@media (max-width: 575.98px) {
+    /* Home */
+
+    .home .home-content .text-2 {
+
+        font-size: 50px
+    }
+
+    .home .home-content .text-3 {
+
+        font-size: 27px
+    }
+
+    /* Nav Bar */
+
+    nav {
+
+        padding: 5px 30px
+    }
+
+    nav ul li.items {
+
+        width: 100%;
+
+        display: none
+    }
+
+    nav ul li.items.show {
+
+        display: block
+    }
+
+    nav ul li.btn {
+
+        display: block
+    }
+
+    nav ul li.items:hover {
+
+        border-radius: 5px;
+
+        -webkit-box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff;
+
+        box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff
+    }
+
+    nav ul li.items:hover:after {
+
+        opacity: 0;
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+
+    /* Skills */
+
+    section .title {
+
+        font-size: 35px;
+
+        margin-bottom: 17px
+    }
+
+    .text h4 {
+
+        font-size: 20px
+    }
+
+    .skills .title:after {
+
+        font-size: 17px
+    }
+
+    .skills .skills-content .column {
+
+        width: 100%;
+
+        margin-bottom: 35px
+    }
+
+    .skills .skills-content .left .text {
+
+        font-size: 19px
+    }
+
+    /* About - remove diagonal border */
+
+    #about-bg-diagonal {
+
+        border-left: 0;
+
+        border-top: 0;
+
+        width: 100%;
+
+        height: 500px
+    }
+
+    #about-content-box {
+
+        width: 100%;
+
+        height: 500px
+    }
+
+    /* Contact */
+
+    #contact {
+
+        padding: 50px
+    }
+
+    .container1 {
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+        flex-direction: column
+    }
+
+    /* Button */
+
+    .btn-general {
+
+        padding: 6px 22px 6px 22px;
+
+        font-size: 14px
+    }
+
+    /* heading */
+
+    h3 {
+
+        font-size: 20px
+    }
+}
+
+/* Extra Small Devices (Small devices) */
+@media (min-width: 321px) and (max-width: 414px) {
+
+    .contactForm {
+        display: none
+    }
+}
+
+/* Extra Small Devices (Small devices) */
+@media (max-width: 320px) {
+    /* Home */
+
+    .home .home-content .text-1 {
+
+        font-size: 15px
+    }
+
+    .home .home-content .text-2 {
+
+        font-size: 30px
+    }
+
+    .home .home-content .text-3 {
+
+        font-size: 15px
+    }
+
+    .home .home-content a {
+
+        display: inline-block;
+
+        background: crimson;
+
+        color: #fff;
+
+        font-size: 15px;
+
+        padding: 6px 17px;
+
+        margin-top: 5px;
+
+        font-weight: 100;
+
+        border-radius: 6px;
+
+        border: 1px solid crimson;
+
+        -webkit-transition: all 0.3s ease;
+
+        transition: all 0.3s ease
+    }
+
+    /* Nav Bar */
+
+    nav {
+
+        padding: 5px 30px
+    }
+
+    nav ul li.items {
+
+        width: 100%;
+
+        display: none
+    }
+
+    nav ul li.items.show {
+
+        display: block
+    }
+
+    nav ul li.btn {
+
+        display: block
+    }
+
+    nav ul li.items:hover {
+
+        border-radius: 5px;
+
+        -webkit-box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff;
+
+        box-shadow: inset 0 0 5px #33ffff,
+            inset 0 0 10px #66ffff
+    }
+
+    nav ul li.items:hover:after {
+
+        opacity: 0;
+
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+    }
+
+   
+
+    /* Skills */
+
+    .skills .skills-content .column {
+
+        width: 100%;
+
+        margin-bottom: 35px;
+
+        margin-top: 30px
+    }
+
+    .skills .skills-content .left a {
+
+        display: inline-block;
+
+        background: crimson;
+
+        color: #fff;
+
+        font-size: 15px;
+
+        font-weight: 100;
+
+        padding: 4px 8px;
+
+        margin-top: 10px;
+
+        border-radius: 6px;
+
+        border: 1px solid crimson;
+
+        -webkit-transition: all 0.3s ease;
+
+        transition: all 0.3s ease
+    }
+
+    .skills .title:after {
+
+        font-size: 13px
+    }
+
+    section .title {
+
+        font-size: 30px;
+
+        margin-bottom: 0px
+    }
+
+    .text h4 {
+
+        font-size: 18px
+    }
+
+    /* Testimonials */
+
+    .testimonial img {
+
+        max-width: 80px
+    }
+
+    .testimonial blockquote {
+
+        padding: 6px 30px
+    }
+
+    .testimonial blockquote:before {
+
+        left: 7px
+    }
+
+    .testimonial blockquote:after {
+
+        right: 7px
+    }
+
+    /* Contact */
+
+    #contact {
+
+        padding: 50px
+    }
+
+    .container1 {
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+        flex-direction: column
+    }
+    
+     .contactForm {
+        display: none
+    }
+
+    /* Button */
+
+    .btn-general {
+
+        padding: 6px 12px 6px 22px;
+
+        font-size: 14px
+    }
+
+    .btn-primary {
+
+        font-size: 15px
+    }
+
+    .home .home-content a {
+
+        font-size: 15px
+    }
+
+    .skills .skills-content .left a {
+
+        font-size: 15px
+    }
+
+    .contactForm .inputBox input[type="submit"] {
+
+        font-size: 15px
+    }
+
+    /* heading */
+
+    h3 {
+
+        font-size: 20px
+    }
+}
