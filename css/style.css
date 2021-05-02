@@ -889,6 +889,8 @@ nav ul {
 nav ul li {
     padding: 15px 0;
     cursor: pointer;
+     font-family: 'Anton', sans-serif;
+
 }
 
 nav ul li.items {
@@ -918,6 +920,7 @@ nav ul li.items:hover:after {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     bottom: 8px;
+    
 }
 
 nav ul li.logo {
