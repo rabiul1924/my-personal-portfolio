@@ -596,6 +596,10 @@ h4.Projects-member-designation {
     letter-spacing: 1px;
     margin-top: 5px;
 }
+.Projects-details{
+    font-family: "Times New Roman", Times, serif;
+    color:;
+}
 
 
 /*=================================================
@@ -646,117 +650,6 @@ h4.Projects-member-designation {
 .blog-p{
     color:#ac5353;
 }
-
-/*=================================================
-    
-                Testimonials
-
-===============================================*/
-
-#testimonials-cover {
-    background-image: url("../img/bg-testimonials.jpg");
-}
-
-#testimonials .content-box {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-#customers-testimonials {
-    padding: 50px 0;
-}
-
-.testimonial img {
-    max-width: 120px;
-    margin: 0 auto 0 auto;
-
-}
-
-.testimonial blockquote {
-    border: 0;
-    font-family: Georgia, sans-serif;
-    font-style: italic;
-    color: #fff;
-    padding: 6px 150px;
-    position: relative;
-}
-
-.testimonial blockquote p {
-    color: #fff;
-}
-
-.testimonial blockquote:before,
-.testimonial blockquote:after {
-    font-size: 80px;
-    font-style: normal;
-    line-height: 1;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-}
-
-.testimonial blockquote:before {
-    content: "\201C";
-    top: 0;
-    left: 100px;
-}
-
-.testimonial blockquote:after {
-    content: "\201D";
-    bottom: 0;
-    right: 100px;
-}
-
-.testimonial-author p {
-    color: #fff;
-    font-size: 17px;
-}
-
-.testimonial-author p strong {
-    display: block;
-}
-
-/*=================================================
-    
-                STATS
-
-===============================================*/
-
-
-#stats-cover {
-    background-image: url(../img/contact.jpg);
-}
-
-
-#stats .content-box {
-    background-color: rgba(0, 0, 0, .8);
-}
-
-
-.stats-item {
-    padding: 100px 0;
-}
-
-
-.stats-item i {
-    color: #34c6d3;
-}
-
-
-.stats-item h2 {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-bottom: 1px;
-}
-
-.stats-item p {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 0;
-}
-
 
 
 /*=================================================
@@ -875,71 +768,7 @@ h4.Projects-member-designation {
     color: #fff;
 }
 
-/* .contactForm {
-    width: 40%;
-    padding: 40px;
-    background: #fff;
-}
 
-.contactForm h2 {
-    font-size: 30px;
-    color: #333;
-    font-weight: 500;
-}
-
-.contactForm .inputBox {
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.contactForm .inputBox input,
-.contactForm .inputBox textarea {
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid #333;
-    outline: none;
-    resize: none;
-
-}
-
-.contactForm .inputBox span {
-    position: absolute;
-    left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    pointer-events: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    color: #666;
-
-}
-
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span {
-    color: #e91e63;
-    font-size: 12px;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-}
-
-.contactForm .inputBox input[type="submit"] {
-    width: 100px;
-    background: crimson;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 17px;
-
-} */
 
 /*=================================================
     
@@ -947,7 +776,7 @@ h4.Projects-member-designation {
 
 ===============================================*/
 
-.from-design{
+ .from-design{
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
@@ -987,18 +816,9 @@ textarea{
 }
 .form-button[type="submit"]:hover {
     background-color: rgb(214, 226, 236);
-}
-/* #status{
-    color:#fff;
-    width: 12%;
-    border: 5px solid black;
-    text-align: center;
-    background-color: #fff;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 8px;
-} */
-#status.success{
+} 
+
+ #status.success{
     background-color: rgb(211, 250, 153);
     animation: status 4s ease forwards;
 }
@@ -1020,7 +840,7 @@ textarea{
         opacity: 0;
         pointer-events: none;
     }
-}
+} 
 
 /*=================================================
     
