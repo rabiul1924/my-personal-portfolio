@@ -164,7 +164,7 @@ body {
 
 
 p {
-    color: #64707b;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     font-weight: 300;
 }
@@ -598,7 +598,6 @@ h4.Projects-member-designation {
 }
 .Projects-details{
     font-family: "Times New Roman", Times, serif;
-    color:;
 }
 
 
@@ -867,7 +866,6 @@ textarea{
 ===============================================*/
 
 nav {
-    /* background: rgba(0, 255, 255, 0.7); */
     background: rgba(192,192,192, 0.7);
     padding: 5px 40px;
 
