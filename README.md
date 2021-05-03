@@ -21,8 +21,4 @@ Carousel, Counter Effect, Scroll-spy Effect etc. This project inspired by Udemy
 
 5.Blog section: You can read more about some articles.If you click Read More then you can see full article. 
 
-6.Testimonials section: You can see some comment.
-
-7.Stats section: You can see my growth.
-
-8.Contact section: You can submit your valuable comment or contact me by social media and I will feedback you soon..
+6.Contact section: You can submit your valuable comment or contact me by social media and I will feedback you soon..
