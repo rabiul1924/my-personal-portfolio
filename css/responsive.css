@@ -433,6 +433,7 @@
 
         flex-direction: column
     }
+   
 
     /* Button */
 
@@ -453,10 +454,12 @@
 
 /* Extra Small Devices (Small devices) */
 @media (min-width: 321px) and (max-width: 414px) {
-
-    .contactForm {
-        display: none
+    .form-button h6
+    {
+        font-size: small;
+        text-align: center;
     }
+  
 }
 
 /* Extra Small Devices (Small devices) */
@@ -640,9 +643,13 @@
         flex-direction: column
     }
     
-     .contactForm {
-        display: none
+    .form-button h6
+    {
+        font-size: small;
+        text-align: center;
     }
+    
+   
 
     /* Button */
 
@@ -679,4 +686,6 @@
 
         font-size: 20px
     }
+
+   
 }
